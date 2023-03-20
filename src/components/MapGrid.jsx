@@ -7,7 +7,7 @@ export const MapGrid = () => {
   return (
     <>
       <NavBar />
-      <div className="grid grid-cols-4 gap-4 p-10 bg-slate-600">
+      <div className="grid grid-cols-4 gap-4 p-10 bg-slate-700">
         {maps.map((item) => (
           <div>
             <MapItem key={item.img} {...item} />

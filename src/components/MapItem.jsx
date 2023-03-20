@@ -1,7 +1,7 @@
 export const MapItem = ({ name, coordinates, img }) => {
   return (
     <div class="flex justify-center">
-      <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-neutral-700">
+      <div class="block max-w-sm rounded-lg bg-white shadow-lg dark:bg-[#5C5C5C]">
         <a href="#!">
           <img class="rounded-t-lg" src={img} alt="" />
         </a>

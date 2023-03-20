@@ -4,7 +4,7 @@ import React from "react";
 import logo from "../assets/logo.png";
 export const NavBar = () => {
   return (
-    <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900">
+    <nav className="border-gray-200 px-2 sm:px-4 py-2.5 rounded bg-[#2E2E2E] ">
       <div className="container flex flex-wrap items-center justify-between mx-auto">
         <a href="/" className="flex items-center">
           <img src={logo} className="h-12 mr-3 " alt="Valorant Logo" />
@@ -15,7 +15,7 @@ export const NavBar = () => {
             data-collapse-toggle="navbar-search"
             aria-controls="navbar-search"
             aria-expanded="false"
-            className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1"
+            className="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 bg-[#2E2E2E] focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 mr-1"
           >
             <svg
               className="w-5 h-5"
@@ -106,11 +106,11 @@ export const NavBar = () => {
               placeholder="Search..."
             />
           </div>
-          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 dark:bg-gray-800 md:bg-[#2E2E2E] dark:border-gray-700">
             <li>
               <a
                 href="/"
-                className="block py-2 pl-3 text-lg pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
+                className="block py-2 pl-3 text-lg pr-4 text-white bg-[#2E2E2E] rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white"
                 aria-current="page"
               >
                 Inicio
